@@ -1,6 +1,8 @@
 # Data & models
 data/raw/
-data/processed/
+data/processed/*.pt
+data/processed/*.pth
+!data/processed/dataset_manifest_v1.0.0.json
 checkpoints/
 logs/
 *.pt
