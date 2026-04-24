@@ -1,0 +1,21 @@
+# Handwriting Recognition Engine — Dependencies
+# Phase 1: Data Engineering
+
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+Pillow>=9.5.0
+
+# Phase 2+ (install now so environment is ready)
+timm>=0.9.0          # pretrained ResNet / ViT models
+wandb>=0.15.0        # experiment tracking
+tqdm>=4.65.0         # progress bars
+scikit-learn>=1.2.0  # confusion matrix, F1 scoring
+matplotlib>=3.7.0    # visualizations
+seaborn>=0.12.0      # confusion matrix heatmap
+onnx>=1.14.0         # model export for deployment
+onnxruntime>=1.15.0  # ONNX inference
+fastapi>=0.100.0     # REST API (Phase 5)
+uvicorn>=0.23.0      # ASGI server (Phase 5)
+python-multipart>=0.0.6  # file upload support (Phase 5)
+pytest>=7.4.0        # unit testing
