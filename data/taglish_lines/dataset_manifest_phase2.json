@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "phase": 2,
+  "created_at": "2026-05-04T22:52:46.450083Z",
+  "random_seed": 42,
+  "task": "taglish-handwritten-document-reading",
+  "input_level": "line",
+  "languages": [
+    "English",
+    "Tagalog",
+    "Taglish"
+  ],
+  "abbreviations": true,
+  "num_sentences": 277,
+  "num_fonts": 8,
+  "num_font_variants": 12,
+  "font_sizes": [
+    32,
+    36,
+    40
+  ],
+  "augment_factor": 5,
+  "image_height": 64,
+  "image_max_width": 512,
+  "splits": {
+    "train": 26615,
+    "val": 3362,
+    "test": 3263
+  },
+  "total_images": 33240,
+  "fonts_used": [
+    "caveat_regular",
+    "caveat_bold",
+    "indie_flower",
+    "patrick_hand",
+    "shadows_into_light",
+    "dancing_script",
+    "kalam_regular",
+    "architects_daughter"
+  ],
+  "augmentation_pipeline": [
+    "RandomRotation(±10°)",
+    "RandomShear(±0.12)",
+    "InkDarknessVariation(0.55–1.0)",
+    "GaussianBlur(p=0.4, radius=0.3–1.5)",
+    "GaussianNoise(p=0.5, σ=3–10)",
+    "RandomTranslation(±6px, ±4px)",
+    "BrightnessJitter(±20)"
+  ],
+  "label_columns": {
+    "text": "original sentence with abbreviations as written",
+    "expanded_text": "abbreviation-expanded version for understanding tasks"
+  },
+  "downstream_model": "microsoft/trocr-base-handwritten",
+  "notes": "Line-level synthetic dataset for Taglish handwritten document reading. aug_idx=0 is always the clean base render. Abbreviation expansion uses data/sentences/abbreviations.json. Compatible with HuggingFace TrOCR fine-tuning pipeline (Phase 3)."
+}
