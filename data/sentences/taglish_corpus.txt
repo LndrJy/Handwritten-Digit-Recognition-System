@@ -1,0 +1,303 @@
+# Taglish Handwritten Document Reader — Sentence Corpus
+# Phase 2: Synthetic Line Dataset
+# ═══════════════════════════════════════════════════════════════════════════════
+# Format: one sentence per line, UTF-8 encoded
+# Categories are marked with # headers (stripped during loading)
+# Covers: full English, full Tagalog, Taglish mixed,
+#         abbreviations, dates/numbers, names/signatures
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ── FULL ENGLISH ─────────────────────────────────────────────────────────────
+Please submit the report by Friday afternoon
+The meeting has been moved to Thursday at two oclock
+Kindly review the attached documents before signing
+I will be out of the office tomorrow morning
+Please call me back as soon as possible
+The deadline for submission is end of month
+Attached is the updated schedule for your review
+Please be informed that the office will be closed on Monday
+Kindly acknowledge receipt of this letter
+This is to certify that the above information is correct
+I would like to request a leave of absence next week
+Please forward this to the concerned department immediately
+The project proposal has been approved by management
+We are pleased to inform you of your application status
+Please ensure all documents are complete before submission
+Your request has been received and is under review
+The payment is due on the fifteenth of the month
+Please sign and return the attached form at your earliest convenience
+I hereby certify that all information provided is true and correct
+Please be advised that the policy has been updated
+Kindly fill out all fields completely and accurately
+This memo is for the information of all concerned
+The annual report is due at the end of the quarter
+Please note that attendance is mandatory for all staff
+We regret to inform you that your request has been denied
+Your appointment is scheduled for next Monday at nine in the morning
+Please bring two valid identification cards on the day of your appointment
+The revised guidelines are effective immediately
+Kindly settle your outstanding balance at your earliest convenience
+This serves as an official notice of the change in schedule
+
+# ── FULL TAGALOG ─────────────────────────────────────────────────────────────
+Pakipadala ang ulat bago mag-Biyernes
+Ang pulong ay inilipat sa Huwebes ng hapon
+Mangyaring suriin ang mga dokumentong nakalakip bago pumirma
+Wala ako sa opisina bukas ng umaga
+Pakitawagan ako sa lalong madaling panahon
+Ang deadline ng pagsusumite ay sa katapusan ng buwan
+Nakalakip ang updated na iskedyul para sa inyong pagsusuri
+Ipinapaalam namin na ang opisina ay sarado sa Lunes
+Mangyaring kumpirmahin ang pagtanggap ng liham na ito
+Ito ay nagpapatunay na ang impormasyon sa itaas ay tama
+Nais kong humiling ng leave of absence sa susunod na linggo
+Pakipadala ito sa kinauukulang departamento kaagad
+Ang panukalang proyekto ay naaprubahan na ng pamamahala
+Ikinalulugod naming ipaalam sa inyo ang katayuan ng inyong aplikasyon
+Tiyakin na kumpleto ang lahat ng dokumento bago isumite
+Natanggap na ang inyong kahilingan at kasalukuyang isinasaalang-alang
+Ang bayad ay dapat bayaran sa ika-labinlima ng buwan
+Mangyaring pumirma at ibalik ang nakalakip na form sa lalong madaling panahon
+Pinapatunayan ko na ang lahat ng impormasyong ibinigay ay tama at wasto
+Ipinapaalam namin na ang patakaran ay na-update na
+Mangyaring punan ang lahat ng patlang nang kumpleto at tama
+Ang memo na ito ay para sa impormasyon ng lahat ng nauugnay
+Ang taunang ulat ay dapat isumite sa katapusan ng quarter
+Mangyaring tandaan na ang pagdalo ay sapilitan para sa lahat ng kawani
+Ikinalulungkot naming ipaalam na ang inyong kahilingan ay tinanggihan
+Ang inyong appointment ay nakatakda sa susunod na Lunes ng alas nuwebe ng umaga
+Mangyaring magdala ng dalawang wastong pagkakakilanlan sa araw ng inyong appointment
+Ang mga binagong alituntunin ay epektibo kaagad
+Mangyaring ayusin ang inyong natitirang balanse sa lalong madaling panahon
+Ito ay nagsisilbing opisyal na abiso ng pagbabago sa iskedyul
+
+# ── TAGLISH MIXED ─────────────────────────────────────────────────────────────
+Pls submit ang report bago mag-Friday
+Ang meeting ay nilipat na sa Thursday ng hapon
+Kindly review ang mga documents bago ka pumirma
+Wala ako sa office bukas ng umaga
+Pakitawagan mo ako as soon as possible
+Ang deadline ng submission ay end of month na
+Nakalakip ang updated schedule para sa inyong review
+Please be informed na sarado ang office sa Monday
+Kindly acknowledge receipt ng letter na ito
+Ito ay nagpapatunay na tama ang lahat ng information
+Gusto kong mag-request ng leave of absence next week
+Please forward ito sa concerned department agad
+Ang project proposal ay approved na ng management
+We are pleased to inform you ng status ng inyong application
+Tiyakin na kumpleto ang lahat ng documents bago mag-submit
+Natanggap na ang inyong request at kasalukuyang nire-review
+Ang bayad ay due sa ika-labinlima ng buwan
+Please sign and return ang nakalakip na form at your earliest convenience
+Pinapatunayan ko na ang lahat ng information ay true and correct
+Please be advised na ang policy ay updated na
+Kindly fill out ang lahat ng fields nang kumpleto
+Ang memo na ito ay para sa information ng lahat ng concerned
+Ang annual report ay due sa end ng quarter
+Please note na mandatory ang attendance para sa lahat ng staff
+Ikinalulungkot naming ipaalam na denied ang inyong request
+Ang inyong appointment ay scheduled sa susunod na Monday ng nine in the morning
+Magdala ng dalawang valid IDs sa araw ng inyong appointment
+Ang revised guidelines ay effective na agad
+Kindly settle ang inyong outstanding balance as soon as possible
+Ito ay nagsisilbing official notice ng change sa schedule
+
+# ── ENGLISH WITH ABBREVIATIONS ───────────────────────────────────────────────
+Pls submit the rpt by Fri PM
+Mtg moved to Thu @ 2pm
+Kindly review docs b4 signing
+FYI I will be OOO tmrw AM
+Pls call ASAP re the new policy
+Deadline for submission is EOM
+Attached is the updated sched FYI
+Pls be informed the ofc will be clsd Mon
+Kindly ack receipt of this ltr
+This is to certify the above info is correct
+I would like to req a LOA next wk
+Pls fwd to concerned dept ASAP
+The proj proposal has been apprvd by mgmt
+We r pleased to inform u of yr app status
+Pls ensure all docs r complete b4 submission
+Yr req has been rcvd and is u/r
+Payment is due on the 15th of the mo
+Pls sign and return the attached form ASAP
+I hereby certify all info provided is true and correct
+Pls be advised the policy has been upd
+Kindly fill out all fields completely and accurately
+This memo is for the info of all concerned
+The annual rpt is due at EOQ
+Pls note attendance is mandatory for all staff
+We regret to inform u yr req has been denied
+Yr appt is sched for next Mon @ 9AM
+Pls bring 2 valid IDs on the day of yr appt
+The revised guidelines are eff immediately
+Kindly settle yr outstanding bal ASAP
+This serves as an official notif of the change in sched
+
+# ── TAGALOG WITH ABBREVIATIONS ───────────────────────────────────────────────
+Pki-padala ang ulat bago mag-Biyernes
+Ang mtg ay nilipat na sa Huwebes ng hapon
+Mangyaring suriin ang mga docs bago pumirma
+Wala ako sa ofc bukas ng AM
+Pki-tawagan ako ASAP
+Ang deadline ng submission ay EOM na
+Nakalakip ang updated sched para sa inyong review
+Ipinapaalam namin na sarado ang ofc sa Mon
+Pki-kumpirma ang pagtanggap ng ltr na ito
+Ito ay nagpapatunay na tama ang info sa itaas
+Gusto kong mag-req ng LOA sa susunod na linggo
+Pki-fwd ito sa dept agad
+Ang proj proposal ay apprvd na ng mgmt
+Ikinalulugod naming ipaalam ang status ng inyong app
+Tiyakin na kumpleto ang lahat ng docs bago mag-submit
+Natanggap na ang inyong req at kasalukuyang u/r
+Ang bayad ay due sa ika-15 ng buwan
+Pki-sign at ibalik ang nakalakip na form ASAP
+Pinapatunayan ko na ang lahat ng info ay tama at wasto
+Ipinapaalam namin na ang policy ay upd na
+Pki-punan ang lahat ng fields nang kumpleto
+Ang memo na ito ay para sa info ng lahat ng concerned
+Ang annual rpt ay due sa EOQ
+Pki-tandaan na mandatory ang attendance para sa lahat ng staff
+Ikinalulungkot naming ipaalam na denied ang inyong req
+Ang inyong appt ay sched sa susunod na Mon ng 9AM
+Magdala ng 2 valid IDs sa araw ng inyong appt
+Ang revised guidelines ay eff na agad
+Pki-ayos ang inyong outstanding bal ASAP
+Ito ay official notif ng pagbabago sa sched
+
+# ── DATES AND NUMBERS ─────────────────────────────────────────────────────────
+January 5 2024
+February 14 2024
+March 20 2024
+April 1 2024
+May 30 2024
+June 15 2024
+July 4 2024
+August 21 2024
+September 10 2024
+October 31 2024
+November 11 2024
+December 25 2024
+01/05/2024
+02/14/2024
+03/20/2024
+Jan 5 2024
+Feb 14 2024
+Mar 20 2024
+Apr 1 2024
+May 30 2024
+Jun 15 2024
+Jul 4 2024
+Aug 21 2024
+Sep 10 2024
+Oct 31 2024
+Nov 11 2024
+Dec 25 2024
+Page 1 of 3
+Page 2 of 5
+Reference No 2024-001
+Reference No 2024-002
+Amount due PHP 1500
+Total amount PHP 3750
+Take 1 tablet twice daily
+Take 2 capsules three times a day
+2x daily after meals
+3x a day before meals
+1 tablet every 8 hours
+Due on the 15th
+Due on the 30th
+Valid until December 31 2024
+Effective January 1 2025
+Date filed March 5 2024
+Date approved April 10 2024
+Serial No 123456
+Control No 2024-0042
+Case No 2024-001
+Invoice No 00123
+Check No 456789
+Account No 1234567890
+Tel No 02-8123-4567
+Mobile No 09171234567
+Fax No 02-8765-4321
+
+# ── NAMES AND SIGNATURES ──────────────────────────────────────────────────────
+Juan dela Cruz
+Maria Santos
+Jose Reyes
+Ana Garcia
+Pedro Mendoza
+Rosa Lopez
+Carlos Ramos
+Elena Torres
+Miguel Flores
+Carmen Villanueva
+Andres Bautista
+Lucia Gonzalez
+Ricardo Aquino
+Marilou Castillo
+Fernando Morales
+Gloria Navarro
+Eduardo Pascual
+Remedios Quijano
+Alfredo Salazar
+Teresita Uy
+Dept Head Juan dela Cruz
+Noted by Maria Santos
+Approved by Jose Reyes
+Signed Ana Garcia
+Prepared by Pedro Mendoza
+Verified by Rosa Lopez
+Reviewed by Carlos Ramos
+Certified by Elena Torres
+Submitted by Miguel Flores
+Received by Carmen Villanueva
+HR Manager Andres Bautista
+Finance Officer Lucia Gonzalez
+Project Lead Ricardo Aquino
+Team Lead Marilou Castillo
+Section Chief Fernando Morales
+Division Head Gloria Navarro
+Unit Head Eduardo Pascual
+Admin Staff Remedios Quijano
+Supervisor Alfredo Salazar
+Director Teresita Uy
+
+# ── DOCUMENT HEADERS AND FOOTERS ─────────────────────────────────────────────
+MEMORANDUM
+LETTER OF INTENT
+CERTIFICATE OF EMPLOYMENT
+INCIDENT REPORT
+DAILY TIME RECORD
+LEAVE APPLICATION FORM
+PURCHASE REQUEST
+OFFICIAL RECEIPT
+DELIVERY RECEIPT
+ACKNOWLEDGMENT RECEIPT
+TO WHOM IT MAY CONCERN
+FOR YOUR INFORMATION AND ACTION
+FOR YOUR INFORMATION AND GUIDANCE
+THIS IS TO CERTIFY THAT
+THIS SERVES AS AN OFFICIAL NOTICE
+SUBJECT Re the above matter
+SUBJECT Application for Leave
+SUBJECT Request for Extension
+SUBJECT Notice of Meeting
+SUBJECT Project Update
+Respectfully yours
+Very truly yours
+Sincerely yours
+With regards
+Best regards
+Yours faithfully
+Submitted by
+Prepared by
+Noted by
+Approved by
+Received by
+Page 1 of 1
+Confidential
+For Official Use Only
+Draft Only
+Copy Furnished
