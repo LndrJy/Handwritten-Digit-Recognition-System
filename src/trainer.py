@@ -514,21 +514,24 @@ def load_model(model_name: str = MODEL_NAME, device: torch.device = None):
     print(f"  Loading model from {model_name}...")
     model = VisionEncoderDecoderModel.from_pretrained(model_name)
 
-    # Required generation config
+    # Required config — these belong on model.config (not generation)
+    # They define the model's architecture, not generation behaviour
     model.config.decoder_start_token_id = processor.tokenizer.cls_token_id
     model.config.eos_token_id           = processor.tokenizer.sep_token_id
     model.config.pad_token_id           = processor.tokenizer.pad_token_id
     model.config.vocab_size             = model.config.decoder.vocab_size
 
-    # Generation settings
-    model.config.max_new_tokens  = MAX_TARGET_LEN
-    model.config.early_stopping  = True
-    model.config.no_repeat_ngram_size = 3
-    model.config.length_penalty  = 2.0
-    model.config.num_beams       = 4
-    # num_beams=4: beam search considers 4 candidate sequences at each step
-    # More beams = better output quality but slower inference
-    # 4 is the standard trade-off for HTR tasks
+    # Generation settings — must go on model.generation_config in
+    # transformers >= 4.36. Putting them on model.config raises a
+    # ValueError in newer versions.
+    model.generation_config.max_new_tokens       = MAX_TARGET_LEN
+    model.generation_config.early_stopping       = True
+    model.generation_config.no_repeat_ngram_size = 3
+    model.generation_config.length_penalty       = 2.0
+    model.generation_config.num_beams            = 4
+    # num_beams=4: beam search considers 4 candidate sequences at each step.
+    # More beams = better output quality but slower inference.
+    # 4 is the standard trade-off for HTR tasks.
 
     model = model.to(device)
     total_params = sum(p.numel() for p in model.parameters())
