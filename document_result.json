@@ -1,0 +1,192 @@
+{
+  "full_text": "a Train- Freeman\nPost- main- main\nMarch 23 , 2021\nNotification of changed account data\n\" Dear Sir or Madame\nSpeaking to the House of Commons and the House\n4 References\n4 References\n# quite better about self- performance\n# that the Puritan confirmation\n\" Yours sincerely\nMiss Miller",
+  "raw_text": "a Train-Freeman .\nPost-main-main .\nMarch 23 , 2021\nNotification of changed account data .\n\" Dear Sir or Madame , \"\nSpeaking to the House of Commons and the House\n4 References\n4 References\n# quite better about self-performance\n# that the Puritan confirmation .\n\" Yours sincerely .\nMiss Miller .",
+  "num_lines": 12,
+  "doc_confidence": 0.5979,
+  "review_required": true,
+  "language": "english",
+  "processing_time_s": 2.693,
+  "processed_at": "2026-05-11T23:36:41.780875Z",
+  "lines": [
+    {
+      "line_index": 0,
+      "raw_text": "a Train-Freeman .",
+      "expanded_text": "a Train- Freeman",
+      "confidence": 0.7461,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        0,
+        59,
+        205,
+        70
+      ]
+    },
+    {
+      "line_index": 1,
+      "raw_text": "Post-main-main .",
+      "expanded_text": "Post- main- main",
+      "confidence": 0.6441,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        0,
+        112,
+        241,
+        45
+      ]
+    },
+    {
+      "line_index": 2,
+      "raw_text": "March 23 , 2021",
+      "expanded_text": "March 23 , 2021",
+      "confidence": 0.7495,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        309,
+        146,
+        289,
+        51
+      ]
+    },
+    {
+      "line_index": 3,
+      "raw_text": "Notification of changed account data .",
+      "expanded_text": "Notification of changed account data",
+      "confidence": 0.6981,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        0,
+        196,
+        567,
+        92
+      ]
+    },
+    {
+      "line_index": 4,
+      "raw_text": "\" Dear Sir or Madame , \"",
+      "expanded_text": "\" Dear Sir or Madame",
+      "confidence": 0.6703,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        6,
+        284,
+        358,
+        62
+      ]
+    },
+    {
+      "line_index": 5,
+      "raw_text": "Speaking to the House of Commons and the House",
+      "expanded_text": "Speaking to the House of Commons and the House",
+      "confidence": 0.6356,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        19,
+        291,
+        580,
+        103
+      ]
+    },
+    {
+      "line_index": 6,
+      "raw_text": "4 References",
+      "expanded_text": "4 References",
+      "confidence": 0.8109,
+      "language": "english",
+      "changes": [],
+      "review_required": false,
+      "bbox": [
+        28,
+        336,
+        629,
+        128
+      ]
+    },
+    {
+      "line_index": 7,
+      "raw_text": "4 References",
+      "expanded_text": "4 References",
+      "confidence": 0.6854,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        45,
+        410,
+        589,
+        130
+      ]
+    },
+    {
+      "line_index": 8,
+      "raw_text": "# quite better about self-performance",
+      "expanded_text": "# quite better about self- performance",
+      "confidence": 0.5187,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        81,
+        526,
+        506,
+        84
+      ]
+    },
+    {
+      "line_index": 9,
+      "raw_text": "# that the Puritan confirmation .",
+      "expanded_text": "# that the Puritan confirmation",
+      "confidence": 0.3148,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        85,
+        553,
+        595,
+        99
+      ]
+    },
+    {
+      "line_index": 10,
+      "raw_text": "\" Yours sincerely .",
+      "expanded_text": "\" Yours sincerely",
+      "confidence": 0.3196,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        102,
+        662,
+        282,
+        56
+      ]
+    },
+    {
+      "line_index": 11,
+      "raw_text": "Miss Miller .",
+      "expanded_text": "Miss Miller",
+      "confidence": 0.3823,
+      "language": "english",
+      "changes": [],
+      "review_required": true,
+      "bbox": [
+        120,
+        712,
+        227,
+        38
+      ]
+    }
+  ]
+}
