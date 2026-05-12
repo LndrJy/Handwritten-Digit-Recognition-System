@@ -1,56 +1,56 @@
 {
-  "full_text": "t Fitzwilliam Daray 1/\nto avoid\nElizabeth Bunnett P.",
-  "raw_text": "t Fitzwilliam Daray 1/\nto avoid\nElizabeth Bunnett P.",
+  "full_text": "0 0\nto avoid\nElizabeth Bennet",
+  "raw_text": "0 0\nto avoid\nElizabeth Bennet",
   "num_lines": 3,
-  "doc_confidence": 0.5635,
+  "doc_confidence": 0.7583,
   "review_required": true,
   "language": "english",
-  "processing_time_s": 1.056,
-  "processed_at": "2026-05-12T00:03:04.065497Z",
+  "processing_time_s": 0.975,
+  "processed_at": "2026-05-12T00:55:56.950247Z",
   "lines": [
     {
       "line_index": 0,
-      "raw_text": "t Fitzwilliam Daray 1/",
-      "expanded_text": "t Fitzwilliam Daray 1/",
-      "confidence": 0.6187,
+      "raw_text": "0 0",
+      "expanded_text": "0 0",
+      "confidence": 0.7405,
       "language": "english",
       "changes": [],
       "review_required": true,
       "bbox": [
+        65,
         0,
-        0,
-        813,
-        118
+        711,
+        215
       ]
     },
     {
       "line_index": 1,
       "raw_text": "to avoid",
       "expanded_text": "to avoid",
-      "confidence": 0.5541,
+      "confidence": 0.7968,
       "language": "english",
       "changes": [],
-      "review_required": true,
+      "review_required": false,
       "bbox": [
-        50,
+        58,
         234,
-        726,
+        710,
         162
       ]
     },
     {
       "line_index": 2,
-      "raw_text": "Elizabeth Bunnett P.",
-      "expanded_text": "Elizabeth Bunnett P.",
-      "confidence": 0.5179,
+      "raw_text": "Elizabeth Bennet",
+      "expanded_text": "Elizabeth Bennet",
+      "confidence": 0.7377,
       "language": "english",
       "changes": [],
       "review_required": true,
       "bbox": [
-        228,
-        688,
-        561,
-        112
+        236,
+        710,
+        381,
+        90
       ]
     }
   ]
